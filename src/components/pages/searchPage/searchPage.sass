@@ -1,0 +1,71 @@
+.search
+    &__form
+        &_close
+            text-align: center
+            margin: 150px 0
+            font-size: 36px
+            line-height: 52px
+        &_open
+            margin: 40px 0 20px 0
+            font-size: 28px
+            line-height: 40px
+            transition: all 1s
+    &__result
+        display: flex
+        justify-content: space-between
+        div
+            margin-bottom: 30px
+            h2
+                font-weight: 500
+            h3
+                color: rgba(23, 23, 25, 0.3)
+        &_grid
+            flex-wrap: wrap
+            div
+                width: 245px
+                height: 226px
+                transition: all 0.5s
+                img
+                    width: 245px
+                    height: 138px
+                    transition: all 0.5s
+                h2
+                    margin-top: 10px
+                    font-size: 14px
+                    line-height: 16px
+                h3
+                    font-size: 14px
+                    line-height: 16px
+        &_list
+            flex-direction: column
+            div
+                height: 90px
+                display: flex
+                justify-content: flex-start
+                transition: height 0.5s
+                img
+                    width: 157px
+                    height: 100%
+                    transition: all 0.5s
+                span
+                    margin-left: 30px
+                    font-size: 16px
+                    line-height: 20px
+                    display: flex
+                    flex-direction: column
+                    h2
+                        margin-top: 3px
+                        transition: margin-top 0.5s
+    &__description
+        display: flex
+        justify-content: space-between
+        margin: 40px 0 20px 0
+        i
+            margin-left: 10px
+            cursor: pointer
+    &__title
+        font-size: 16px
+        line-height: 24px
+        span
+            color: rgba(23, 23, 25, 0.3)
+            margin-left: 20px
