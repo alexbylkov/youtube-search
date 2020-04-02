@@ -28,7 +28,7 @@ const FavouritesList = ({favourites, searchFormOpen, search, history, postDelete
                 listLoading ? 
                 <Loading/> :
                 list.length === 0 ?
-                <h2 className="favorites__massage">У Вас нет избранных запесей</h2> :
+                <h2 className="favorites__massage">У Вас нет избранных записей</h2> :
                 list.map(item =>  
                     <FavouritesItem 
                     key={item.id} 
